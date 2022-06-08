@@ -5,6 +5,8 @@ library(sf)
 library(sp)
 library(leaflet)
 
+
+
 map_EJ <- function(myyear = 2019, mystate = "OR") {
   race_vars <- c(White = "B03002_003", Black = "B03002_004", Native = "B03002_005", 
                Asian = "B03002_006", HIPI = "B03002_007", Hispanic = "B03002_012")
